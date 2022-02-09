@@ -197,6 +197,9 @@
    color: white;
    margin-right: 0;
    margin-top: 80px;
+   position: relative;
+   z-index: 1;
+   width: 200px;
  }
 
  .digits {
@@ -266,13 +269,7 @@
    z-index: 1;
  }
 
- .table__cell_theme_dark {
-   color: #fff;
-   position: relative;
-   z-index: 1;
-   width: 200px;
-   margin-top: 80px;
- }
+
 
  .kaufman {
    background-color:#f2f2f2;
