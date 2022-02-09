@@ -3,6 +3,14 @@
   to { transform: rotate(360deg);}
  } */
 
+/* Здравствуйте! :) Пока было долгое ревью, я начал делать ПР2, скопировав ПР1.
+И после ответа ревью сделал работу над ошибками в ПР2.
+
+Я закоментировал все что относится к ПР2.
+Надеюсь, это не будет считаться ошибкой.
+Хорошего вам дня! ^_^ */
+
+
  .page {
    min-width: 1100px;
    max-width: 1600px;
@@ -20,7 +28,7 @@
    overflow: hidden;
  }
 
- a {
+ /* a {
    opacity: 1;
    transition: opacity 0.5s;
  }
@@ -28,7 +36,7 @@
  a:hover {
    opacity: 0.5;
    transform: opacity;
- }
+ } */
 
  .logo_place_header {
    position:absolute;
@@ -325,7 +333,7 @@
    display: block;
  }
 
- .logo_place_footer {
+ .logo__place_footer {
    width: 183px;
    height: 35px;
  }
@@ -335,5 +343,6 @@
    flex-basis: 711px;
    display: flex;
    justify-content: space-between;
+   align-items: baseline;
    flex-direction: column;
  }
