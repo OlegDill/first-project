@@ -3,13 +3,15 @@
   to { transform: rotate(360deg);}
  } */
 
-/* Здравствуйте! :) Пока было долгое ревью, я начал делать ПР2, скопировав ПР1.
-И после ответа ревью сделал работу над ошибками в ПР2.
+/* _______________________________________________________________________________________________
 
-Я закоментировал все что относится к ПР2.
-Надеюсь, это не будет считаться ошибкой.
-Хорошего вам дня! ^_^ */
+        Здравствуйте! :) Пока было долгое ревью, я начал делать ПР2, скопировав ПР1.
+        И после ответа ревью сделал работу над ошибками в ПР2.
 
+        Я закоментировал все что относится к ПР2.
+        Надеюсь, это не будет считаться ошибкой.
+        Хорошего вам дня! ^_^
+    _______________________________________________________________________________________________*/
 
  .page {
    min-width: 1100px;
@@ -75,6 +77,8 @@
  }
 
  .header__main-illustration {
+   background-image: url(../images/header-image.png);
+   background-size: cover;
    position: absolute;
    right: 0;
    bottom: 0;
@@ -84,6 +88,7 @@
  }
 
  .header__square-pic {
+  background-color: #2F80ED;
    height: 568px;
    width: 568px;
    position: absolute;
@@ -91,12 +96,10 @@
    right: 0;
    z-index: 1;
    /* transform: rotate(360deg);
-   animation: rotation linear 20s infinite;
-   background-color: #2F80ED; */
+   animation: rotation linear 20s infinite; */
  }
 
  .description {
-   background-color:#f2f2f2;
    display: flex;
    justify-content: center;
    margin: 0;
@@ -117,7 +120,7 @@
    line-height: 1.2;
    font-size: 18px;
    font-weight: normal;
-   color: #2F80ED;
+   color: #2f80ed;
  }
 
  .two-columns__main-text {
@@ -140,6 +143,76 @@
  .two-columns__span-accent {
    font-weight: bold;
  }
+
+/* .techniques {
+  width: 80%;
+  margin: auto;
+}
+
+.cards {
+ width: 80%;
+ margin: 0 auto;
+ display: flex;
+ flex-wrap: wrap;
+ list-style-type: none;
+ padding: 0;
+}
+
+.cards__item {
+  margin: 0 100px 0 0;
+}
+
+.cards__image {
+  width: 160px;
+  height: 160px;
+  margin: 60px 40px 43px;
+  border-radius: 100px;
+}
+
+.cards__title {
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0;
+  text-align: center;
+  max-width: 240px;
+}
+
+.cards__description {
+  max-width: 240px;
+  line-height: 23px;
+  font-size: 18px;
+  font-weight: normal;
+  margin: 16px 0 0;
+  text-align: center;
+}
+
+.video {
+  margin: 100px 0 -60px;
+}
+
+.video__iframes {
+  margin: 50px auto 0;
+  display: flex;
+  justify-content: center;
+}
+
+.video__iframe {
+  margin: 0 20px 0 0;
+}
+
+.video__iframe:last-of-type {
+  margin: 0;
+}
+
+.oakley {
+  background-color:#f2f2f2;
+  padding-bottom: 100px;
+  padding-top: 60px;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+} */
 
  .table {
    width: 1100px;
@@ -172,6 +245,72 @@
    margin-top: 20px;
  }
 
+ /* .khan {
+   width: 80%;
+   background-color:#f2f2f2;
+   margin: 0;
+   padding: 105px 20% 0 0;
+   display: flex;
+   justify-content: center;
+ }
+
+ .khan__author {
+  line-height: 42px;
+  font-size: 30px;
+  font-weight: normal;
+  margin: 0;
+ }
+
+ .khan__title {
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: bold;
+  margin: 0 0 50px;
+ }
+
+ .khan__quote {
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+  max-width: 790px;
+  margin: 0 0 36px;
+ }
+
+ .khan__quote-author {
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0 0 10px;
+ }
+
+.khan__quote-author-subline {
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: normal;
+  margin: 0 0 68px;
+}
+
+.khan__book-container {
+  display: flex;
+}
+
+.khan__book-pic {
+  background-image: url(../images/khan-book.jpg);
+  background-size: cover;
+  width: 620px;
+  height: 608px;
+}
+
+.khan__buy-link {
+  line-height: 42px;
+  font-size: 30px;
+  font-weight: normal;
+  margin: 0;
+  margin-left: 48px;
+  color: #2f80ed;
+  text-decoration: none;
+} */
+
  .section-title {
    width: 60%;
    display: flex;
@@ -197,14 +336,11 @@
    color: white;
    margin-right: 0;
    margin-top: 80px;
-   position: relative;
    z-index: 1;
-   width: 200px;
  }
 
  .digits {
-   background-color:#f2f2f2;
-   padding-bottom: 100px;
+   padding: 100px 0;
  }
 
  .feynman {
@@ -250,6 +386,8 @@
  }
 
  .feynman__img {
+   background-image: url(../images/feynman.png);
+   background-size: cover;
    position: absolute;
    bottom: 0;
    left: 0;
@@ -269,23 +407,42 @@
    z-index: 1;
  }
 
-
-
  .kaufman {
    background-color:#f2f2f2;
    background-color: #1f1f1f;
    overflow: hidden;
    position: relative;
+   padding-bottom: 90px;
  }
 
  .kaufman__triangle {
    background-image: url(../images/kaufman-triangle.svg);
+   background-size: contain;
+   background-repeat: no-repeat;
    position: absolute;
    right: -210px;
    top:0;
    width: 877px;
    height: 877px;
+   /* transform: rotate(360deg);
+   animation: rotation linear 20s infinite; */
  }
+
+ /* .resources {
+   margin: 100px auto 0;
+ }
+
+.resources__logo-zone {
+  margin: 80px auto 217px;
+  display: flex;
+  justify-content: center;
+  width: 1100px;
+}
+
+.resources__logo {
+  width: 270px;
+  height: 38px;
+} */
 
  .footer {
    background-color: #1f1f1f;
